@@ -1,0 +1,88 @@
+@font-face {
+    font-family: odinFont;
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100wv;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidebg {
+    background-image: url(.././form-project/images/bg-image.avif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-width: 40%;
+}
+
+.logo-holder {
+    margin-top: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: odinFont;
+    font-size: 72px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.logo-text {
+    padding-top: 15px
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    min-width: 60%;
+}
+
+.header-text {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.header-text-add {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.form-div {
+    border: 0;
+    background-color: white;
+}
+
+.full-name label {
+    display: block;
+}
+
+.container {
+    background-color: #F9F9F9;
+    padding: 16px;
+}

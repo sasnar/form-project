@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebg">
+            <div class="logo-holder">
+                <img src="./images/odin-logo.png" class="logo"> <span class="logo-text">ODIN</span> 
+            </div>
+        </div>
+        <div class="container">
+            <p class="header-text">This is not a real online service! You know you need something like this in your life
+                to help you realize your deepest dreams. Sign up <span>now</span> to get started.
+            </p>
+            <p class="header-text-add">You <span>know</span> you want to.</p>
+            <form class="form">
+                <fieldset class="form-div">
+                    <legend class="form-title">Let's do this!</legend>
+                    <div class="full-name">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="first-name">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="last-name">
+                    </div>
+                    <div class="contacts">
+                        <label for="userMail">EMAIL</label>
+                        <input type="email" name="userMail" id="mail">
+                        <label for="userPhone">PHONE NUMBER</label>
+                        <input type="tel" name="userPhone" id="phone">
+                    </div>
+                    <div class="password">
+                        <label for="userPass">PASSWORD</label>
+                        <input type="password" name="userPass" id="password">
+                        <label for="userPassConfirmation">CONFIRM PASSWORD</label>
+                        <input type="password" name="userPassConfirmation" id="password-confirmation">
+                    </div>
+                </fieldset>
+                <button type="submit">Create account</button>
+                <p class="login">Already have an account? <a href="./index.html">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
