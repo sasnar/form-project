@@ -22,24 +22,36 @@
             <p class="header-text-add">You <span>know</span> you want to.</p>
             <form class="form">
                 <fieldset class="form-div">
-                    <legend class="form-title">Let's do this!</legend>
-                    <div class="full-name">
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" name="firstName" id="first-name">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" name="lastName" id="last-name">
+                    <div class="form-title">Let's do this!</div>
+                    <div class="div-row">
+                        <div class="div-element">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="first-name">
+                        </div>
+                        <div class="div-element">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="last-name">
+                        </div>
                     </div>
-                    <div class="contacts">
-                        <label for="userMail">EMAIL</label>
-                        <input type="email" name="userMail" id="mail">
-                        <label for="userPhone">PHONE NUMBER</label>
-                        <input type="tel" name="userPhone" id="phone">
+                    <div class="div-row">
+                        <div class="div-element">
+                            <label for="userMail">EMAIL</label>
+                            <input type="email" name="userMail" id="mail">
+                        </div>
+                        <div class="div-element">
+                            <label for="userPhone">PHONE NUMBER</label>
+                            <input type="tel" name="userPhone" id="phone">
+                        </div>
                     </div>
-                    <div class="password">
-                        <label for="userPass">PASSWORD</label>
-                        <input type="password" name="userPass" id="password">
-                        <label for="userPassConfirmation">CONFIRM PASSWORD</label>
-                        <input type="password" name="userPassConfirmation" id="password-confirmation">
+                    <div class="div-row">
+                        <div class="div-element">
+                            <label for="userPass">PASSWORD</label>
+                            <input type="password" name="userPass" id="password">
+                        </div>
+                        <div class="div-element">
+                            <label for="userPassConfirmation">CONFIRM PASSWORD</label>
+                            <input type="password" name="userPassConfirmation" id="password-confirmation">
+                        </div>
                     </div>
                 </fieldset>
                 <button type="submit">Create account</button>

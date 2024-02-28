@@ -29,7 +29,7 @@ html, body {
 }
 
 .logo-holder {
-    margin-top: 40%;
+    margin-top: 30%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
@@ -78,11 +78,68 @@ html, body {
     background-color: white;
 }
 
-.full-name label {
-    display: block;
+label {
+    font-size: 8px;
+    font-weight: bolder;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.1 );
+    width: 175px;
+}
+
+.form-title {
+    font-size: 18px;
+    padding: 12px;
+}
+
+.div-row {
+    display: flex;
+    gap: 48px;
+}
+
+.div-element {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
 }
 
 .container {
     background-color: #F9F9F9;
     padding: 16px;
 }
+
+a {
+    color: darkolivegreen;
+    font-weight: bolder;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+  button {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: white;
+    background-color: darkolivegreen;
+    padding: 10px 36px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: 0px; 
+  }
+
+  .login {
+      margin-left: 16px;
+  }
