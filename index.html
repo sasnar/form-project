@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up page</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="main">
@@ -46,11 +46,12 @@
                     <div class="div-row">
                         <div class="div-element">
                             <label for="userPass">PASSWORD</label>
-                            <input type="password" name="userPass" id="password">
+                            <input type="password" name="userPass" id="password" required>
+                            <span class="error-message" id="password-error"></span>
                         </div>
                         <div class="div-element">
                             <label for="userPassConfirmation">CONFIRM PASSWORD</label>
-                            <input type="password" name="userPassConfirmation" id="password-confirmation">
+                            <input type="password" name="userPassConfirmation" id="password-confirmation" required>
                         </div>
                     </div>
                 </fieldset>

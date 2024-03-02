@@ -76,6 +76,8 @@ html, body {
 .form-div {
     border: 0;
     background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15 );
+    width: 100%;
 }
 
 label {
@@ -88,6 +90,15 @@ label {
 input {
     border: 1px solid rgba(0, 0, 0, 0.1 );
     width: 175px;
+}
+
+input:focus{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15 );
+    border: 1px solid blue;
+}
+
+input:focus-visible {
+    outline: 0;
 }
 
 .form-title {
@@ -143,3 +154,18 @@ a:link {
   .login {
       margin-left: 16px;
   }
+
+  #password:invalid, #password-confirmation:invalid {
+      border: 1px solid red;
+  }
+
+  input:invalid {
+    border: 1px solid red;
+}
+
+input:invalid, span.error-message {
+    color: red;
+    font-size: 10px;
+    display: block;
+}
+
